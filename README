@@ -1,0 +1,84 @@
+Programming Assignment 2
+Author: Xinghuang Xu 
+Overview:
+This program would solve N queen problem efficiently.
+
+
+0. Unzip
+unzip xinghuangxu-nqueen.zip
+
+1. Build:
+sh build.sh
+
+2. Run:
+sh run.sh
+
+
+Working Example (4 queen):
+Please Enter the size of the n queen problem:
+4
+Please Enter the location(1-4) for the 1th column:
+23
+Number 23 out of range.(1-4)
+Please Enter the location(1-4) for the 1th column:
+4
+Please Enter the location(1-4) for the 2th column:
+3
+Please Enter the location(1-4) for the 3th column:
+4
+Please Enter the location(1-4) for the 4th column:
+4
+Initial State:
+4 3 4 4 
+O O O O 
+O O O O 
+O X O O 
+X O X X 
+
+Goal State:
+3 1 4 2 
+O X O O 
+O O O X 
+X O O O 
+O O X O 
+
+Working Example (8 queen):
+Please Enter the size of the n queen problem:
+8
+Please Enter the location(1-8) for the 1th column:
+1
+Please Enter the location(1-8) for the 2th column:
+1
+Please Enter the location(1-8) for the 3th column:
+1
+Please Enter the location(1-8) for the 4th column:
+1
+Please Enter the location(1-8) for the 5th column:
+1
+Please Enter the location(1-8) for the 6th column:
+1
+Please Enter the location(1-8) for the 7th column:
+1
+Please Enter the location(1-8) for the 8th column:
+1
+Initial State:
+1 1 1 1 1 1 1 1 
+X X X X X X X X 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+O O O O O O O O 
+
+Goal State:
+4 6 8 3 1 7 5 2 
+O O O O X O O O 
+O O O O O O O X 
+O O O X O O O O 
+X O O O O O O O 
+O O O O O O X O 
+O X O O O O O O 
+O O O O O X O O 
+O O X O O O O O 
